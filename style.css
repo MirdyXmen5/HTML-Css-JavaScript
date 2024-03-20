@@ -5,6 +5,9 @@
 
 body {
   padding: 10px;
+  background-image: url('background_one.jpg');
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 a:link {
@@ -25,6 +28,11 @@ a:visited {
 td, th {
   border: 1px solid #000000;
   padding: 8px;
+}
+
+#background {
+  padding: 40px;
+  background-image: url('background.jpg');
 }
 
 /*
